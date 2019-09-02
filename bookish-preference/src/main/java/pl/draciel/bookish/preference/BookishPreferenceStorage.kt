@@ -4,8 +4,7 @@ import android.annotation.SuppressLint
 import android.content.SharedPreferences
 import androidx.annotation.GuardedBy
 import androidx.preference.PreferenceDataStore
-import pl.draciel.bookish.preference.BookishStorage.TypedKey
-import pl.draciel.bookish.preference.BookishStorage.TypedKey.*
+import pl.draciel.bookish.preference.TypedKey.*
 
 /**
  * Implementation of [BookishStorage] with [PreferenceDataStore] support.
